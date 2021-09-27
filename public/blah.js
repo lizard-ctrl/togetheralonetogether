@@ -54,7 +54,8 @@ function drawKeypoints()  {
         r = random(50,150);
         fill(r, 0, 255);
         noStroke();
-        textSize(60);
+        tS = random(10,150);
+        textSize(tS);
         let word = random(words);
         text(word,keypoint.position.x, keypoint.position.y);
       }
